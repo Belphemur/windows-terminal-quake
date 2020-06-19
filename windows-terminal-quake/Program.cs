@@ -40,7 +40,7 @@ namespace WindowsTerminalQuake
                 };
                 _toggler = new Toggler(process);
 
-                _trayIcon.Notify(ToolTipIcon.Info, $"Windows Terminal Quake is running, press CTRL+~ or CTRL+Q to toggle.");
+                _trayIcon.Notify(ToolTipIcon.Info, $"Windows Terminal Quake is running, press CTRL+~ or CTRL+Q or CTRL+µ to toggle.");
             }
             catch (Exception ex)
             {

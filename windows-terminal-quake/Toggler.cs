@@ -27,6 +27,7 @@ namespace WindowsTerminalQuake
 
             HotKeyManager.RegisterHotKey(Keys.Oemtilde, KeyModifiers.Control);
             HotKeyManager.RegisterHotKey(Keys.Q, KeyModifiers.Control);
+            HotKeyManager.RegisterHotKey(Keys.Oem5, KeyModifiers.Control);
 
             HotKeyManager.HotKeyPressed += (s, a) =>
             {
